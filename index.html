@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mogitha - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Mogitha S M</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link resume-btn" onclick="downloadResume()">Resume</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight">Mogitha S M</span>
+                    </h1>
+                    <p class="hero-description">
+                        Computer Science Student | Full-Stack Developer | ML/DL Enthusiast | IoT Innovator
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#about" class="btn btn-primary">Learn About Me</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Alex Johnson" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="section-header">
+                        <h2 class="section-title">About Me</h2>
+                        <p class="section-subtitle">Passionate developer with a love for blending AI/ML, IoT, and Full-Stack technologies to solve real-world problems</p>
+                    </div>
+                    <div class="about-description">
+                        <p>I'm a Computer Science student and aspiring full-stack developer with hands-on experience in building intelligent, scalable systems. My journey includes developing advanced machine learning models, full-stack applications, and real-time IoT solutions. </p>
+                        
+                        <p>I believe in combining creativity with technology to build solutions that matter. </p>
+                    </div>
+
+                    <div class="experience">
+                        <h3>Professional Experience</h3>
+                        <div class="experience-item">
+                            <div class="experience-header">
+                                <h4>Machine Learning Intern</h4>
+                                <span class="experience-date">May 2025 – June 2025</span>
+                            </div>
+                            <p class="experience-company">UI Bridge Solutions Pvt Ltd</p>
+                            <p class="experience-description">Developed and deployed a real-time Condition-Based Monitoring (CBM) system with 95% fault detection accuracy.</p>
+                            <p class="experience-description">Created a Flask-based web application for uploading, visualizing (time, frequency, spectrogram), and analyzing sensor data.</p>
+                            <p class="experience-description">Designed and implemented a role-based dashboard with dynamic charts and retraining functionality.</p>
+                        </div>
+
+        
+                        
+                    </div>
+
+                    <div class="education">
+                        <h3>Education</h3>
+                        <div class="education-item">
+                            <h4>B.Tech Computer Science and Engineering</h4>
+                            <p class="education-school">Amrita University - 2026</p>
+                        </div>
+                       
+                    </div>
+                </div>
+
+                <div class="skills-section">
+                    <h3>Programming Languages</h3>
+                    <div class="skills-categories">
+                        <div class="skill-category">
+                            <h4>Frontend</h4>
+                            <div class="skills-list">
+                                <span class="skill">Python</span>
+                                <span class="skill"> C </span>
+                                <span class="skill"> C++ </span>
+                                <span class="skill">HTML</span>
+                                <span class="skill">CSS</span>
+                                <span class="skill">JavaScript</span>
+                                <span class="skill">Haskell</span>
+                                <span class="skill">Scala</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h4>Frameworks</h4>
+                            <div class="skills-list">
+                                <span class="skill">ReactJS</span>
+                                <span class="skill">Flask</span>
+                                <span class="skill">PyTorch</span>
+                                <span class="skill">TensorFlow</span>
+                                <span class="skill">NodeJS</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h4>Database & Cloud</h4>
+                            <div class="skills-list">
+                                <span class="skill">MongoDB</span>
+                                <span class="skill">PostgreSQL</span>
+                                <span class="skill">SQLite</span>
+                                <span class="skill">SQL</span>
+                                <span class="skill">InfluxDB</span>
+                                <span class="skill">Firebase</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h4>Tools</h4>
+                            <div class="skills-list">
+                                <span class="skill">ThingSpeak</span>
+                                <span class="skill">Flutter</span>
+                                <span class="skill">Git</span>
+                                <span class="skill">Gephi</span>
+                                <span class="skill">Jira</span>
+                                <span class="skill">Canva</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Work</h2>
+                <p class="section-subtitle">A selection of projects that showcase my skills and creativity</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800" alt="E-commerce Platform">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <h3>E-commerce Platform</h3>
+                                <p>Full-stack web application</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link">View Project</a>
+                                    <a href="#" class="portfolio-link">Live Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>E-commerce Platform</h3>
+                        <p>Modern e-commerce solution built with React and Node.js. Features include user authentication, payment processing, and admin dashboard.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Mobile Banking App">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <h3>Mobile Banking App</h3>
+                                <p>iOS & Android application</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link">View Project</a>
+                                    <a href="#" class="portfolio-link">Case Study</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Mobile Banking App</h3>
+                        <p>Secure mobile banking application with biometric authentication, transaction history, and real-time notifications.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">React Native</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">Firebase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Data Visualization Dashboard">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <h3>Analytics Dashboard</h3>
+                                <p>Data visualization platform</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link">View Project</a>
+                                    <a href="#" class="portfolio-link">Live Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Analytics Dashboard</h3>
+                        <p>Interactive dashboard for business analytics with real-time data visualization and customizable reports.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">D3.js</span>
+                            <span class="tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Travel Planning App">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <h3>Travel Planning App</h3>
+                                <p>Cross-platform mobile app</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link">View Project</a>
+                                    <a href="#" class="portfolio-link">App Store</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Travel Planning App</h3>
+                        <p>Comprehensive travel planning application with itinerary management, booking integration, and social features.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Flutter</span>
+                            <span class="tag">Dart</span>
+                            <span class="tag">Google Maps</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Healthcare Portal">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <h3>Healthcare Portal</h3>
+                                <p>Patient management system</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link">View Project</a>
+                                    <a href="#" class="portfolio-link">Case Study</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Healthcare Portal</h3>
+                        <p>Secure patient portal for healthcare providers with appointment scheduling and medical record management.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Angular</span>
+                            <span class="tag">Spring Boot</span>
+                            <span class="tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Social Media Platform">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <h3>Social Media Platform</h3>
+                                <p>Community-driven platform</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link">View Project</a>
+                                    <a href="#" class="portfolio-link">Live Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Social Media Platform</h3>
+                        <p>Modern social networking platform with real-time messaging, content sharing, and community features.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Next.js</span>
+                            <span class="tag">GraphQL</span>
+                            <span class="tag">Redis</span>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-subtitle">Have a project in mind? I'd love to hear about it.</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>mogitha1494@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+91 8838063515</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Coimbatore , Tamil Nadu</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <h3>Follow Me</h3>
+                        <div class="social-icons">
+                            <a href="#" class="social-link">LinkedIn</a>
+                            <a href="#" class="social-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Mogitha S M. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="" onclick="downloadResume()">Download Resume</a>
+                    <a href="#home">Back to Top</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

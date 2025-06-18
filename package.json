@@ -1,0 +1,17 @@
+{
+  "name": "alex-johnson-portfolio",
+  "version": "1.0.0",
+  "description": "Professional portfolio website for Alex Johnson",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "start": "npx serve .",
+    "build": "echo 'Build complete - static files ready'"
+  },
+  "keywords": ["portfolio", "website", "html", "css", "javascript"],
+  "author": "Alex Johnson",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
