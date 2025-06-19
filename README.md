@@ -11,7 +11,6 @@ This site is a reflection of my experience in:
 - Full-stack web development
 - AI & Deep Learning
 - IoT system design
-- Real-time data processing
 
 ---
 
