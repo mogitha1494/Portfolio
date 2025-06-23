@@ -1,7 +1,7 @@
 {
-  "name": "alex-johnson-portfolio",
+  "name": "mogitha-portfolio",
   "version": "1.0.0",
-  "description": "Professional portfolio website for Alex Johnson",
+  "description": "Professional portfolio website for mogitha",
   "main": "index.html",
   "scripts": {
     "dev": "npx serve .",
