@@ -106,68 +106,13 @@ contactForm.addEventListener('submit', async (e) => {
 
 // Resume download function
 function downloadResume() {
-    // Create a mock PDF download
     const link = document.createElement('a');
-    
-    // In a real application, this would be a link to your actual resume PDF
-    // For demo purposes, we'll create a mock download
-    const resumeContent = createMockResume();
-    const blob = new Blob([resumeContent], { type: 'text/plain' });
-    const url = window.URL.createObjectURL(blob);
-    
-    link.href = url;
-    link.download = 'Alex_Johnson_Resume.txt';
+    link.href = 'MOGITHA_RESUME2.pdf'; // ✅ Make sure this matches the actual filename exactly
+    link.download = 'MOGTIHA_RESUME2.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-    window.URL.revokeObjectURL(url);
-    
-    // Show download notification
     showNotification('Resume downloaded successfully!');
-}
-
-// Create mock resume content
-function createMockResume() {
-    return `
-ALEX JOHNSON
-Creative Developer & Designer
-Email: alex.johnson@email.com
-Phone: +1 (555) 123-4567
-Location: San Francisco, CA
-
-PROFESSIONAL EXPERIENCE
-
-Senior Full-Stack Developer | TechCorp Solutions | 2021 - Present
-• Lead development of enterprise web applications serving 100k+ users daily
-• Mentored junior developers and established best practices for the development team
-• Technologies: React, Node.js, AWS, MongoDB
-
-Frontend Developer | StartupXYZ | 2019 - 2021
-• Built responsive web applications using React and Vue.js
-• Collaborated with UX designers to implement pixel-perfect user interfaces
-• Technologies: React, Vue.js, TypeScript, Sass
-
-Junior Developer | Digital Agency Inc. | 2018 - 2019
-• Developed custom WordPress themes and plugins
-• Gained experience in full-stack development and client communication
-• Technologies: WordPress, PHP, JavaScript, MySQL
-
-EDUCATION
-
-Bachelor of Science in Computer Science
-Stanford University | 2018
-
-CERTIFICATIONS
-
-AWS Certified Solutions Architect | 2022
-
-SKILLS
-
-Frontend: React, Vue.js, Angular, TypeScript, Next.js, Tailwind CSS
-Backend: Node.js, Python, Django, Express.js, GraphQL, REST APIs
-Database & Cloud: MongoDB, PostgreSQL, AWS, Docker, Redis, Firebase
-Mobile & Tools: React Native, Flutter, Git, Figma, Jest, Webpack
-`;
 }
 
 // Notification system
