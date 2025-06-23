@@ -35,7 +35,7 @@ This site is a reflection of my experience in:
 ---
 ## 🚀 Live Demo
 
-🌐 [View Portfolio](http://127.0.0.1:5500/index.html)
+🌐 [View Portfolio](https://mogitha1494.github.io/Portfolio/)
 
 ---
 
